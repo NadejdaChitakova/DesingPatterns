@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Setter
 @Getter
-public class Bike {
+public class Bike extends Toy {
     public String WheelSize;
     public String Color;
     public String Material;
